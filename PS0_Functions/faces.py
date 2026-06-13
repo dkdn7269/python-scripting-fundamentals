@@ -1,9 +1,9 @@
-def convert(happysadface):
-    return happysadface.replace(":)", "🙂").replace(":(", "🙁")
+def convert(happysadface):      # def = define a reusable function called convert, takes one string as input
+    return happysadface.replace(":)", "🙂").replace(":(", "🙁")    # replace emoticons with emoji, chained left to right
 
-def main():
-    happysadface = input()
-    print(convert(happysadface))
+def main(): #define the main function, handles all input and output
+    happysadface = input()  # get user input as string
+    print(convert(happysadface))    # pass it to convert(), print the returned result
 
 
-main()
+main() # run the program
